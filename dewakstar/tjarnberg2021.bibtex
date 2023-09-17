@@ -1,0 +1,15 @@
+@article{10.1371/journal.pcbi.1008569,
+    doi = {10.1371/journal.pcbi.1008569},
+    author = {Tjärnberg, Andreas AND Mahmood, Omar AND Jackson, Christopher A. AND Saldi, Giuseppe-Antonio AND Cho, Kyunghyun AND Christiaen, Lionel A. AND Bonneau, Richard A.},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Optimal tuning of weighted kNN- and diffusion-based methods for denoising single cell genomics data},
+    year = {2021},
+    month = {01},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pcbi.1008569},
+    pages = {1-22},
+    abstract = {The analysis of single-cell genomics data presents several statistical challenges, and extensive efforts have been made to produce methods for the analysis of this data that impute missing values, address sampling issues and quantify and correct for noise. In spite of such efforts, no consensus on best practices has been established and all current approaches vary substantially based on the available data and empirical tests. The k-Nearest Neighbor Graph (kNN-G) is often used to infer the identities of, and relationships between, cells and is the basis of many widely used dimensionality-reduction and projection methods. The kNN-G has also been the basis for imputation methods using, e.g., neighbor averaging and graph diffusion. However, due to the lack of an agreed-upon optimal objective function for choosing hyperparameters, these methods tend to oversmooth data, thereby resulting in a loss of information with regard to cell identity and the specific gene-to-gene patterns underlying regulatory mechanisms. In this paper, we investigate the tuning of kNN- and diffusion-based denoising methods with a novel non-stochastic method for optimally preserving biologically relevant informative variance in single-cell data. The framework, Denoising Expression data with a Weighted Affinity Kernel and Self-Supervision (DEWÄKSS), uses a self-supervised technique to tune its parameters. We demonstrate that denoising with optimal parameters selected by our objective function (i) is robust to preprocessing methods using data from established benchmarks, (ii) disentangles cellular identity and maintains robust clusters over dimension-reduction methods, (iii) maintains variance along several expression dimensions, unlike previous heuristic-based methods that tend to oversmooth data variance, and (iv) rarely involves diffusion but rather uses a fixed weighted kNN graph for denoising. Together, these findings provide a new understanding of kNN- and diffusion-based denoising methods. Code and example data for DEWÄKSS is available at https://gitlab.com/Xparx/dewakss/-/tree/Tjarnberg2020branch.},
+    number = {1},
+
+}

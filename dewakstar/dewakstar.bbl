@@ -1,0 +1,298 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{batson2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5bda68b05b516d8b8f972fff82525fce}{%
+           family={Batson},
+           familyi={B\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3cfd7115ba6c3230a9cbba97fa23d979}{%
+           family={Royer},
+           familyi={R\bibinitperiod},
+           given={Loı̈c},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{22bc867e795ea92630afb6603e0cc01d}
+      \strng{fullhash}{22bc867e795ea92630afb6603e0cc01d}
+      \strng{bibnamehash}{22bc867e795ea92630afb6603e0cc01d}
+      \strng{authorbibnamehash}{22bc867e795ea92630afb6603e0cc01d}
+      \strng{authornamehash}{22bc867e795ea92630afb6603e0cc01d}
+      \strng{authorfullhash}{22bc867e795ea92630afb6603e0cc01d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Noise2Self: Blind Denoising by Self-Supervision}
+      \field{volume}{abs/1901.11365}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1901.11365
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1901.11365
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1901.11365
+      \endverb
+    \endentry
+    \entry{cavanaugh2019akaike}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9001122a1173b69eb09c07a26707d0bf}{%
+           family={Cavanaugh},
+           familyi={C\bibinitperiod},
+           given={Joseph\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e1127b091e7dc78bbbb44eed2c968099}{%
+           family={Neath},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \strng{fullhash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \strng{bibnamehash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \strng{authorbibnamehash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \strng{authornamehash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \strng{authorfullhash}{41038dadc4c49084cf268aa3b8c0df4b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Computational Statistics}
+      \field{number}{3}
+      \field{title}{The Akaike information criterion: Background, derivation, properties, application, interpretation, and refinements}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{e1460}
+      \range{pages}{-1}
+    \endentry
+    \entry{PhysRevE.74.016110}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7d302305c2e2a1906e33540b16b95b16}{%
+           family={Reichardt},
+           familyi={R\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e8f90598f73255bf7c9d956aafc2102e}{%
+           family={Bornholdt},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{12555ed97f60b7f74dec524222ae4f74}
+      \strng{fullhash}{12555ed97f60b7f74dec524222ae4f74}
+      \strng{bibnamehash}{12555ed97f60b7f74dec524222ae4f74}
+      \strng{authorbibnamehash}{12555ed97f60b7f74dec524222ae4f74}
+      \strng{authornamehash}{12555ed97f60b7f74dec524222ae4f74}
+      \strng{authorfullhash}{12555ed97f60b7f74dec524222ae4f74}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{month}{7}
+      \field{title}{Statistical mechanics of community detection}
+      \field{volume}{74}
+      \field{year}{2006}
+      \field{pages}{016110}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.74.016110
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.74.016110
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.74.016110
+      \endverb
+    \endentry
+    \entry{tjarnberg2021}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6192e8ccb9dcf4bd1c5c1ce245a2718c}{%
+           family={Tjärnberg},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=986c04fccf72481dd98b26be0e1a42e0}{%
+           family={Mahmood},
+           familyi={M\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=2e35024300be1cdc5269a347949f25be}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={Christopher\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c8a152ab30f710a2d8555b9144e7452b}{%
+           family={Saldi},
+           familyi={S\bibinitperiod},
+           given={Giuseppe-Antonio},
+           giveni={G\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=3da7501a79d9346572c7fd6e41b615df}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Kyunghyun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=92e7cd06d0b956f84bf28f74a504ccb4}{%
+           family={Christiaen},
+           familyi={C\bibinitperiod},
+           given={Lionel\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4a9b252345b4711bda0a3094cd54c21c}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Richard\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{1e525c8b696fab65fe587af45b42ab75}
+      \strng{fullhash}{ddd5b4873212ea71b9a02e43f8b6e587}
+      \strng{bibnamehash}{1e525c8b696fab65fe587af45b42ab75}
+      \strng{authorbibnamehash}{1e525c8b696fab65fe587af45b42ab75}
+      \strng{authornamehash}{1e525c8b696fab65fe587af45b42ab75}
+      \strng{authorfullhash}{ddd5b4873212ea71b9a02e43f8b6e587}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The analysis of single-cell genomics data presents several statistical challenges, and extensive efforts have been made to produce methods for the analysis of this data that impute missing values, address sampling issues and quantify and correct for noise. In spite of such efforts, no consensus on best practices has been established and all current approaches vary substantially based on the available data and empirical tests. The k-Nearest Neighbor Graph (kNN-G) is often used to infer the identities of, and relationships between, cells and is the basis of many widely used dimensionality-reduction and projection methods. The kNN-G has also been the basis for imputation methods using, e.g., neighbor averaging and graph diffusion. However, due to the lack of an agreed-upon optimal objective function for choosing hyperparameters, these methods tend to oversmooth data, thereby resulting in a loss of information with regard to cell identity and the specific gene-to-gene patterns underlying regulatory mechanisms. In this paper, we investigate the tuning of kNN- and diffusion-based denoising methods with a novel non-stochastic method for optimally preserving biologically relevant informative variance in single-cell data. The framework, Denoising Expression data with a Weighted Affinity Kernel and Self-Supervision (DEWÄKSS), uses a self-supervised technique to tune its parameters. We demonstrate that denoising with optimal parameters selected by our objective function (i) is robust to preprocessing methods using data from established benchmarks, (ii) disentangles cellular identity and maintains robust clusters over dimension-reduction methods, (iii) maintains variance along several expression dimensions, unlike previous heuristic-based methods that tend to oversmooth data variance, and (iv) rarely involves diffusion but rather uses a fixed weighted kNN graph for denoising. Together, these findings provide a new understanding of kNN- and diffusion-based denoising methods. Code and example data for DEWÄKSS is available at https://gitlab.com/Xparx/dewakss/-/tree/Tjarnberg2020branch.}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Optimal tuning of weighted kNN- and diffusion-based methods for denoising single cell genomics data}
+      \field{volume}{17}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1008569
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pcbi.1008569
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pcbi.1008569
+      \endverb
+    \endentry
+    \entry{traag2019louvain}{article}{}
+      \name{author}{3}{}{%
+        {{hash=18f2a50c77e449afe5f4860879107330}{%
+           family={Traag},
+           familyi={T\bibinitperiod},
+           given={Vincent\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{%
+           family={Waltman},
+           familyi={W\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95abfb07aac7d047a7dccdad8e6d78c7}{%
+           family={Van\bibnamedelima Eck},
+           familyi={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Nees\bibnamedelima Jan},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \strng{fullhash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \strng{bibnamehash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \strng{authorbibnamehash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \strng{authornamehash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \strng{authorfullhash}{c06cefa46ce52dac162b3548d8afb5ab}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{From Louvain to Leiden: guaranteeing well-connected communities}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+    \endentry
+    \entry{WANG2016232}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a88b5edcd9caf96b0d3653fdf13fa5c7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yasi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=01af2deacd0498532e92135d933a4d76}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Hongxun},
+           giveni={H\bibinitperiod}}}%
+        {{hash=20c1a2ef5bfd2e1882259bdb5f0663f3}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Sicheng},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{69e49eadb77814be56e959c5cf8aef97}
+      \strng{fullhash}{69e49eadb77814be56e959c5cf8aef97}
+      \strng{bibnamehash}{69e49eadb77814be56e959c5cf8aef97}
+      \strng{authorbibnamehash}{69e49eadb77814be56e959c5cf8aef97}
+      \strng{authornamehash}{69e49eadb77814be56e959c5cf8aef97}
+      \strng{authorfullhash}{69e49eadb77814be56e959c5cf8aef97}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Auto-encoder—a tricky three-layered neural network, known as auto-association before, constructs the “building block” of deep learning, which has been demonstrated to achieve good performance in various domains. In this paper, we try to investigate the dimensionality reduction ability of auto-encoder, and see if it has some kind of good property that might accumulate when being stacked and thus contribute to the success of deep learning. Based on the above idea, this paper starts from auto-encoder and focuses on its ability to reduce the dimensionality, trying to understand the difference between auto-encoder and state-of-the-art dimensionality reduction methods. Experiments are conducted both on the synthesized data for an intuitive understanding of the method, mainly on two and three-dimensional spaces for better visualization, and on some real datasets, including MNIST and Olivetti face datasets. The results show that auto-encoder can indeed learn something different from other methods. Besides, we preliminarily investigate the influence of the number of hidden layer nodes on the performance of auto-encoder and its possible relation with the intrinsic dimensionality of input data.}
+      \field{issn}{0925-2312}
+      \field{journaltitle}{Neurocomputing}
+      \field{note}{RoLoD: Robust Local Descriptors for Computer Vision 2014}
+      \field{title}{Auto-encoder based dimensionality reduction}
+      \field{volume}{184}
+      \field{year}{2016}
+      \field{pages}{232\bibrangedash 242}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.neucom.2015.08.104
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925231215017671
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925231215017671
+      \endverb
+      \keyw{Auto-encoder,Dimensionality reduction,Visualization,Intrinsic dimensionality,Dimensionality-accuracy}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

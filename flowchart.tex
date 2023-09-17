@@ -1,0 +1,53 @@
+\documentclass[tikz, margin=3mm]{standalone}
+\usepackage{amsmath,amsfonts}
+\usetikzlibrary{arrows.meta, bending, positioning}
+
+
+\begin{document}
+
+    \begin{tikzpicture}[
+node distance = 12mm and 9mm,
+ punkt/.style = {rectangle, draw},
+   pil/.style = {black, -stealth}
+                    ]
+%nodes
+\node[punkt,label=above:input data] (X)                                  {$X$} ;
+\node[punkt,label=below:encoder] (encoder) [right=of X] {$\theta_e$} ;
+\node[punkt,label=above:embedding] (E) [right=of encoder] {$E$} ;
+%\node (noise2self) [below=of E] {$\mathrm{noise2self}$} ;
+
+%\node (knn) [right=of E] {$k$ nearest neighbors};
+\node[punkt,label=below:$k$ nearest neighbors] (G) [right=of E] {$G_k$};
+\node[punkt,label=below:noise2self] (ksel) [below=of G] {$\underset{k \in \mathbb{N}}{\mathrm{argmin}} [(E - G_kE)^2]$};
+\node[punkt,label=below:clustering] (leiden) [below=of ksel] {$\underset{\gamma \in \mathbb{R}}{\mathrm{leiden}} [G_k,\gamma]$};
+\node[punkt,label=below:clusters] (J) [below=of leiden] {$\mathcal{J}_\gamma$};
+\node[punkt,label=below:noise2self] (gammasel) [below=of J] {$\underset{\gamma}{\mathrm{argmin}} [\sum_J^{\mathcal{J}_{\gamma}}(E - JE)^2]$};
+\node[punkt,label=below:clusterwise mean] (mean) [below=of gammasel] {$\forall J \in \mathcal{J}_\gamma : \underset{J}{\mathrm{mean}}[JE]$};
+
+\node[punkt,label=above:central embeddings] (Ehat) [left=of mean] {$\hat{E}$} ;
+\node[punkt,label=below:decoder] (decoder) [left=of Ehat] {$\theta_d$} ;
+\node[punkt,label=above:central members] (Xhat) [left=of decoder] {$\hat{X}$} ;
+\node[punkt,label=below:residual input] (resid) [left=of Xhat] {$X \ominus \hat{X}$} ;
+
+% edges
+\draw[pil]  (X)     edge    (encoder)
+(encoder) edge (E)
+%(E) edge (noise2self)
+%(noise2self) edge (Ehat)
+(Ehat) edge (decoder)
+(decoder) edge (Xhat)
+(Xhat) edge (resid)
+(X)    edge    (resid)
+(resid) edge[bend left=45] (X) ;
+
+
+\draw[pil] (E) edge (G)
+%(knn) edge (G)
+(G) edge (ksel)
+(ksel) edge (leiden)
+(leiden) edge (J)
+(J) edge (gammasel)
+(gammasel) edge (mean)
+(mean) edge (Ehat)
+\end{tikzpicture}
+\end{document}

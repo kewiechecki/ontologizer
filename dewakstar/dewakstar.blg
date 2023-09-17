@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'dewakstar.blg'
+[35] biber:340> INFO - === Sun Jul 30, 2023, 01:45:53
+[42] Biber.pm:419> INFO - Reading 'dewakstar.bcf'
+[71] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[78] Biber.pm:4419> INFO - Processing section 0
+[83] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[83] bibtex.pm:1713> INFO - LaTeX decoding ...
+[90] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[121] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[122] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[122] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[126] bbl.pm:660> INFO - Writing 'dewakstar.bbl' with encoding 'UTF-8'
+[129] bbl.pm:763> INFO - Output to dewakstar.bbl
+[129] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'PhysRevE.74.016110' is not an integer - this will probably not sort properly.
+[129] Biber.pm:133> INFO - WARNINGS: 1

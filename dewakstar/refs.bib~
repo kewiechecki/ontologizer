@@ -1,0 +1,132 @@
+@article{carpenter2006cellprofiler,
+  title={CellProfiler: image analysis software for identifying and quantifying cell phenotypes},
+  author={Carpenter, Anne E and Jones, Thouis R and Lamprecht, Michael R and Clarke, Colin and Kang, In Han and Friman, Ola and Guertin, David A and Chang, Joo Han and Lindquist, Robert A and Moffat, Jason and others},
+  journal={Genome biology},
+  volume={7},
+  pages={1--11},
+  year={2006},
+  publisher={Springer}
+}
+
+@article{10.1093/nar/gkq973,
+    author = {Szklarczyk, Damian and Franceschini, Andrea and Kuhn, Michael and Simonovic, Milan and Roth, Alexander and Minguez, Pablo and Doerks, Tobias and Stark, Manuel and Muller, Jean and Bork, Peer and Jensen, Lars J. and Mering, Christian von},
+    title = "{The STRING database in 2011: functional interaction networks of proteins, globally integrated and scored}",
+    journal = {Nucleic Acids Research},
+    volume = {39},
+    number = {suppl\_1},
+    pages = {D561-D568},
+    year = {2010},
+    month = {11},
+    abstract = "{ An essential prerequisite for any systems-level understanding of cellular functions is to correctly uncover and annotate all functional interactions among proteins in the cell. Toward this goal, remarkable progress has been made in recent years, both in terms of experimental measurements and computational prediction techniques. However, public efforts to collect and present protein interaction information have struggled to keep up with the pace of interaction discovery, partly because protein–protein interaction information can be error-prone and require considerable effort to annotate. Here, we present an update on the online database resource Search Tool for the Retrieval of Interacting Genes (STRING); it provides uniquely comprehensive coverage and ease of access to both experimental as well as predicted interaction information. Interactions in STRING are provided with a confidence score, and accessory information such as protein domains and 3D structures is made available, all within a stable and consistent identifier space. New features in STRING include an interactive network viewer that can cluster networks on demand, updated on-screen previews of structural information including homology models, extensive data updates and strongly improved connectivity and integration with third-party resources. Version 9.0 of STRING covers more than 1100 completely sequenced organisms; the resource can be reached at http://string-db.org . }",
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkq973},
+    url = {https://doi.org/10.1093/nar/gkq973},
+}
+
+@article{cavanaugh2019akaike,
+  title={The Akaike information criterion: Background, derivation, properties, application, interpretation, and refinements},
+  author={Cavanaugh, Joseph E and Neath, Andrew A},
+  journal={Wiley Interdisciplinary Reviews: Computational Statistics},
+  volume={11},
+  number={3},
+  pages={e1460},
+  year={2019},
+  publisher={Wiley Online Library}
+}
+
+@article{subramanian2005gene,
+  title={Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles},
+  author={Subramanian, Aravind and Tamayo, Pablo and Mootha, Vamsi K and Mukherjee, Sayan and Ebert, Benjamin L and Gillette, Michael A and Paulovich, Amanda and Pomeroy, Scott L and Golub, Todd R and Lander, Eric S and others},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={102},
+  number={43},
+  pages={15545--15550},
+  year={2005},
+  publisher={National Acad Sciences}
+}
+
+@article{traag2019louvain,
+  title={From Louvain to Leiden: guaranteeing well-connected communities},
+  author={Traag, Vincent A and Waltman, Ludo and Van Eck, Nees Jan},
+  journal={Scientific reports},
+  volume={9},
+  number={1},
+  pages={1--12},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+
+@article{WANG2016232,
+title = {Auto-encoder based dimensionality reduction},
+journal = {Neurocomputing},
+volume = {184},
+pages = {232-242},
+year = {2016},
+note = {RoLoD: Robust Local Descriptors for Computer Vision 2014},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2015.08.104},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231215017671},
+author = {Yasi Wang and Hongxun Yao and Sicheng Zhao},
+keywords = {Auto-encoder, Dimensionality reduction, Visualization, Intrinsic dimensionality, Dimensionality-accuracy},
+abstract = {Auto-encoder—a tricky three-layered neural network, known as auto-association before, constructs the “building block” of deep learning, which has been demonstrated to achieve good performance in various domains. In this paper, we try to investigate the dimensionality reduction ability of auto-encoder, and see if it has some kind of good property that might accumulate when being stacked and thus contribute to the success of deep learning. Based on the above idea, this paper starts from auto-encoder and focuses on its ability to reduce the dimensionality, trying to understand the difference between auto-encoder and state-of-the-art dimensionality reduction methods. Experiments are conducted both on the synthesized data for an intuitive understanding of the method, mainly on two and three-dimensional spaces for better visualization, and on some real datasets, including MNIST and Olivetti face datasets. The results show that auto-encoder can indeed learn something different from other methods. Besides, we preliminarily investigate the influence of the number of hidden layer nodes on the performance of auto-encoder and its possible relation with the intrinsic dimensionality of input data.}
+}
+
+@article{PhysRevE.74.016110,
+  title = {Statistical mechanics of community detection},
+  author = {Reichardt, J\"org and Bornholdt, Stefan},
+  journal = {Phys. Rev. E},
+  volume = {74},
+  issue = {1},
+  pages = {016110},
+  numpages = {14},
+  year = {2006},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.74.016110},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.74.016110}
+}
+
+@article{ROUSSEEUW,
+title = {Silhouettes: A graphical aid to the interpretation and validation of cluster analysis},
+journal = {Journal of Computational and Applied Mathematics},
+volume = {20},
+pages = {53-65},
+year = {1987},
+issn = {0377-0427},
+doi = {https://doi.org/10.1016/0377-0427(87)90125-7},
+url = {https://www.sciencedirect.com/science/article/pii/0377042787901257},
+author = {Peter J. Rousseeuw},
+keywords = {Graphical display, cluster analysis, clustering validity, classification},
+abstract = {A new graphical display is proposed for partitioning techniques. Each cluster is represented by a so-called silhouette, which is based on the comparison of its tightness and separation. This silhouette shows which objects lie well within their cluster, and which ones are merely somewhere in between clusters. The entire clustering is displayed by combining the silhouettes into a single plot, allowing an appreciation of the relative quality of the clusters and an overview of the data configuration. The average silhouette width provides an evaluation of clustering validity, and might be used to select an ‘appropriate’ number of clusters.}
+}
+
+@article{10.1371/journal.pcbi.1008569,
+    doi = {10.1371/journal.pcbi.1008569},
+    author = {Tjärnberg, Andreas AND Mahmood, Omar AND Jackson, Christopher A. AND Saldi, Giuseppe-Antonio AND Cho, Kyunghyun AND Christiaen, Lionel A. AND Bonneau, Richard A.},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Optimal tuning of weighted kNN- and diffusion-based methods for denoising single cell genomics data},
+    year = {2021},
+    month = {01},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pcbi.1008569},
+    pages = {1-22},
+    abstract = {The analysis of single-cell genomics data presents several statistical challenges, and extensive efforts have been made to produce methods for the analysis of this data that impute missing values, address sampling issues and quantify and correct for noise. In spite of such efforts, no consensus on best practices has been established and all current approaches vary substantially based on the available data and empirical tests. The k-Nearest Neighbor Graph (kNN-G) is often used to infer the identities of, and relationships between, cells and is the basis of many widely used dimensionality-reduction and projection methods. The kNN-G has also been the basis for imputation methods using, e.g., neighbor averaging and graph diffusion. However, due to the lack of an agreed-upon optimal objective function for choosing hyperparameters, these methods tend to oversmooth data, thereby resulting in a loss of information with regard to cell identity and the specific gene-to-gene patterns underlying regulatory mechanisms. In this paper, we investigate the tuning of kNN- and diffusion-based denoising methods with a novel non-stochastic method for optimally preserving biologically relevant informative variance in single-cell data. The framework, Denoising Expression data with a Weighted Affinity Kernel and Self-Supervision (DEWÄKSS), uses a self-supervised technique to tune its parameters. We demonstrate that denoising with optimal parameters selected by our objective function (i) is robust to preprocessing methods using data from established benchmarks, (ii) disentangles cellular identity and maintains robust clusters over dimension-reduction methods, (iii) maintains variance along several expression dimensions, unlike previous heuristic-based methods that tend to oversmooth data variance, and (iv) rarely involves diffusion but rather uses a fixed weighted kNN graph for denoising. Together, these findings provide a new understanding of kNN- and diffusion-based denoising methods. Code and example data for DEWÄKSS is available at https://gitlab.com/Xparx/dewakss/-/tree/Tjarnberg2020branch.},
+    number = {1},
+}
+
+@article{DBLP:journals/corr/abs-1901-11365,
+  author       = {Joshua Batson and
+                  Lo{\"{\i}}c Royer},
+  title        = {Noise2Self: Blind Denoising by Self-Supervision},
+  journal      = {CoRR},
+  volume       = {abs/1901.11365},
+  year         = {2019},
+  url          = {http://arxiv.org/abs/1901.11365},
+  eprinttype    = {arXiv},
+  eprint       = {1901.11365},
+  timestamp    = {Mon, 04 Feb 2019 08:11:03 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-1901-11365.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
